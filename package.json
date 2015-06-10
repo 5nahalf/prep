@@ -1,5 +1,5 @@
 {
-  "name": "prep",
+  "name": "PrepHoops",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,18 @@
     "jade": "~1.9.2",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "description": "PrepHoops Dashboard",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5nahalf/prep.git"
+  },
+  "author": "Erik, Clare, Steve, Jeanne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5nahalf/prep/issues"
+  },
+  "homepage": "https://github.com/5nahalf/prep"
 }
