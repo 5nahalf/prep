@@ -1,5 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var Twitter = require('twitter');
+var util = require('util');
+var path = require('path');
+
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -7,3 +11,5 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+
