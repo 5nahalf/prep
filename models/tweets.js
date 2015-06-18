@@ -3,14 +3,16 @@ var Schema = mongoose.Schema;
 
 var model = new Schema(
     {
-        date_created:Date,
+        date_created:String,
         user_name:String,
         id_str:String,
+        num_followers:Number,
+        source:String,
+        num_entities:Number,
         num_tweets:Number,
         num_retweets:Number,
-        num_mentions:Number,
-        num_followers:Number,
-        num_entities:Number
+        num_mentions:Array,
+        reSource:String
     });
 
 module.exports = mongoose.model('tweets', model);
